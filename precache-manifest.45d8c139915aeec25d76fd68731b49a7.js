@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd43d8a7407eee66bbf33f192a11afd4",
+    "revision": "f9e5503ff3b329539f428a38f089e320",
     "url": "/portfolio-rakesh/index.html"
   },
   {
-    "revision": "41370f2d370c41c7bf78",
+    "revision": "ef900ddfd9e0cc7507f6",
     "url": "/portfolio-rakesh/static/css/main.3912e3cc.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-rakesh/static/js/5.10a1d6bf.chunk.js"
   },
   {
-    "revision": "41370f2d370c41c7bf78",
-    "url": "/portfolio-rakesh/static/js/main.713b4df0.chunk.js"
+    "revision": "ef900ddfd9e0cc7507f6",
+    "url": "/portfolio-rakesh/static/js/main.fb900d65.chunk.js"
   },
   {
     "revision": "f18059a05d8a6c7f9786",
