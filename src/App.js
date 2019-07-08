@@ -2,10 +2,12 @@ import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './layout/Navbar';
 import Footer from './layout/Footer';
+import CuriosityMeter from './layout/CuriosityMeter';
 import './App.css';
 
 const Home = lazy(() => import('./Home'));
 const About = lazy(() => import('./About'));
+const Contact = lazy(() => import('./Contact'));
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
               <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/about" component={About} />
+                <Route exact path="/contact" component={Contact} />
               </Switch>
             </Suspense>
           </Router>
@@ -25,6 +28,7 @@ function App() {
           <Footer />
         </section>
       </div>
+      <CuriosityMeter />
     </React.Fragment>
   );
 }
