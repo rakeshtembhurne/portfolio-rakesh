@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{31:function(e,t,a){"use strict";a.r(t);var n=a(0),c=a.n(n);t.default=function(){return c.a.createElement(c.a.Fragment,null,c.a.createElement("h1",{className:"title is-2"},"Contact Me"),c.a.createElement("p",{className:"is-medium content"},"The fastest way to contact me is via email."),c.a.createElement("p",{className:"is-medium content"},"Email me on rakesh[at]temburne[dot]com."))}}}]);
+//# sourceMappingURL=4.19519792.chunk.js.map
