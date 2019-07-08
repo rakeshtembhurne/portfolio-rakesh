@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, BrowserRouter as Router } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -9,7 +9,7 @@ const Navbar = () => {
           <img className="is-rounded animated bounce" src="https://avatars2.githubusercontent.com/u/1090611?s=100" alt="Rakesh Tembhurne" />
         </p>
         <p className="column is-half-mobile">
-          <a href="/about" className="link button is-outlined is-link animated slideInRight delay-2s">About</a>
+        <Link to="/about" className="link button is-outlined is-link animated slideInRight delay-2s">About</Link>
         </p>
         <p className="column is-half-mobile">
           <a href="https://rakesh.tembhurne.com" target="_blank" rel="noopener noreferrer" className="link button is-outlined is-link animated slideInRight delay-1s">Blog</a>
@@ -23,7 +23,7 @@ const Navbar = () => {
           <a href="https://github.com/rakeshtembhurne" target="_blank" rel="noopener noreferrer" className="link button is-outlined is-link animated slideInLeft delay-1s">Portfolio</a>
         </p>
         <p className="column is-half-mobile">
-          <a href="/contact" className="link button is-outlined is-link animated slideInLeft delay-2s">Contact</a>
+          <Link to="/contact" className="link button is-outlined is-link animated slideInLeft delay-2s">Contact</Link>
         </p>
       </nav>
   );
