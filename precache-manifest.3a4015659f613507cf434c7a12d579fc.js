@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f9e5503ff3b329539f428a38f089e320",
+    "revision": "d0d7d54b70516fe1a3be82bcafa63fef",
     "url": "/portfolio-rakesh/index.html"
   },
   {
-    "revision": "ef900ddfd9e0cc7507f6",
+    "revision": "231671fc79daf453650c",
     "url": "/portfolio-rakesh/static/css/main.3912e3cc.chunk.css"
   },
   {
-    "revision": "63b109b6e1b11087eeb5",
-    "url": "/portfolio-rakesh/static/js/2.e95e1186.chunk.js"
+    "revision": "dbf8e2aa25df7140abbe",
+    "url": "/portfolio-rakesh/static/js/2.2d9f984d.chunk.js"
   },
   {
     "revision": "3c842fad25c5ec2d3108",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-rakesh/static/js/5.10a1d6bf.chunk.js"
   },
   {
-    "revision": "ef900ddfd9e0cc7507f6",
-    "url": "/portfolio-rakesh/static/js/main.fb900d65.chunk.js"
+    "revision": "231671fc79daf453650c",
+    "url": "/portfolio-rakesh/static/js/main.bbd4ca14.chunk.js"
   },
   {
     "revision": "f18059a05d8a6c7f9786",
