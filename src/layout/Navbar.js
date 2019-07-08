@@ -11,13 +11,13 @@ const Navbar = () => {
         <a href="/about" className="link button is-outlined is-link animated slideInRight delay-2s">About</a>
       </p>
       <p className="column is-half-mobile">
-        <a href="/blog" className="link button is-outlined is-link animated slideInRight delay-1s">Blog</a>
+        <a href="https://rakesh.tembhurne.com" target="_blank" className="link button is-outlined is-link animated slideInRight delay-1s">Blog</a>
       </p>
       <p className="column is-hidden-mobile">
         <img className="is-rounded" src="https://avatars2.githubusercontent.com/u/1090611?s=100" alt="Rakesh Tembhurne" />
       </p>
       <p className="column is-half-mobile">
-        <a href="/portfolio" className="link button is-outlined is-link animated slideInLeft delay-1s">Portfolio</a>
+        <a href="https://github.com/rakeshtembhurne" target="_blank" className="link button is-outlined is-link animated slideInLeft delay-1s">Portfolio</a>
       </p>
       <p className="column is-half-mobile">
         <a href="/contact" className="link button is-outlined is-link animated slideInLeft delay-2s">Contact</a>
