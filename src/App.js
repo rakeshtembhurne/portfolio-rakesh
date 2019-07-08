@@ -14,13 +14,13 @@ function App() {
     <React.Fragment>
       <div className="container">
         <section className="section has-text-centered">
-          <Navbar />
           <Router>
+            <Navbar />
             <Suspense fallback={<div>Loading...</div>}>
               <Switch>
-                <Route exact path="/" component={Home} />
-                <Route exact path="/about" component={About} />
-                <Route exact path="/contact" component={Contact} />
+                <Route exact  path="/" component={Home} />
+                <Route exact  path="/about" component={About} />
+                <Route exact  path="/contact" component={Contact} />
               </Switch>
             </Suspense>
           </Router>

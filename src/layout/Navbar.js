@@ -3,7 +3,6 @@ import { Link, BrowserRouter as Router } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <Router>
       <nav className="columns is-mobile is-centered has-text-centered is-multiline">
         <h1 className="column is-full title is-hidden-desktop is-hidden-tablet">Rakesh Tembhurne</h1>
         <p className="column is-full is-hidden-desktop is-hidden-tablet is-128x128">
@@ -27,7 +26,6 @@ const Navbar = () => {
           <a href="/contact" className="link button is-outlined is-link animated slideInLeft delay-2s">Contact</a>
         </p>
       </nav>
-    </Router>
   );
 }
 
