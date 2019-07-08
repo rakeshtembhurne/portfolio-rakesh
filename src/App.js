@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './layout/Navbar';
-import Title from './layout/Title';
-import RecentArticles from './layout/RecentArticles';
-import RecentProjects from './layout/RecentProjects';
 import Footer from './layout/Footer';
 import './App.css';
+
+const Home = lazy(() => import('./Home'));
+const About = lazy(() => import('./About'));
 
 function App() {
   return (
@@ -12,11 +13,14 @@ function App() {
       <div className="container">
         <section className="section has-text-centered">
           <Navbar />
-            <Title />
-          <div className="tile is-ancestor" id="articles-posts">
-            <RecentArticles />
-            <RecentProjects />
-          </div>
+          <Router>
+            <Suspense fallback={<div>Loading...</div>}>
+              <Switch>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/about" component={About} />
+              </Switch>
+            </Suspense>
+          </Router>
           <hr/>
           <Footer />
         </section>
