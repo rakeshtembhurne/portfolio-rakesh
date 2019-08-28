@@ -2,7 +2,6 @@ import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './layout/Navbar';
 import Footer from './layout/Footer';
-import CuriosityMeter from './layout/CuriosityMeter';
 import './App.css';
 
 const Home = lazy(() => import('./Home'));
@@ -28,7 +27,6 @@ function App() {
           <Footer />
         </section>
       </div>
-      {/* <CuriosityMeter /> */}
     </React.Fragment>
   );
 }
