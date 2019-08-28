@@ -10,6 +10,9 @@ const Footer = () => {
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/rakeshtembhurne"><i class="animated slideInDown fab fa-github"></i></a>
       </div>
       <div className="column is-narrow">
+        <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@rakeshtembhurne"><i class="animated slideInDown fab fa-medium"></i></a>
+      </div>
+      <div className="column is-narrow">
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/rakeshtembhurne/"><i class="animated slideInDown fab fa-linkedin-in"></i></a>
       </div>
       

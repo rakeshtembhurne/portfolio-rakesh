@@ -20,7 +20,7 @@ const Navbar = () => {
           </Link>
         </p>
         <p className="column is-half-mobile">
-          <a href="https://github.com/rakeshtembhurne" target="_blank" rel="noopener noreferrer" className="link button is-outlined is-link animated slideInLeft delay-1s">Portfolio</a>
+          <a href="https://leanpub.com/u/tembhurne" target="_blank" rel="noopener noreferrer" className="link button is-outlined is-link animated slideInLeft delay-1s">Books</a>
         </p>
         <p className="column is-half-mobile">
           <Link to="/contact" className="link button is-outlined is-link animated slideInLeft delay-2s">Contact</Link>

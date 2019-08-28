@@ -28,7 +28,7 @@ function App() {
           <Footer />
         </section>
       </div>
-      <CuriosityMeter />
+      {/* <CuriosityMeter /> */}
     </React.Fragment>
   );
 }
