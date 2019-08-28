@@ -14,7 +14,7 @@ function App() {
     <React.Fragment>
       <div className="container">
         <section className="section has-text-centered">
-          <Router basename="portfolio-rakesh">
+          <Router>
             <Navbar />
             <Suspense fallback={<div>Loading...</div>}>
               <Switch>
